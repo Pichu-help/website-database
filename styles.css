@@ -1,2 +1,41 @@
-body{background-color: salmon;}
-h3{color: cornsilk;}
+
+body{background-color: rgb(255, 248, 245); font-family: "gill sans", sans-serif;}
+
+h1{color: rgb(244, 172, 183) ;font-family: "bradley hand", cursive;}
+
+p{color: rgb(157, 129, 137) ;font-family: "gill sans", sans-serif;}
+
+h3{color: rgb(255, 202, 212) ;font-family: "bradley hand", cursive;}
+
+
+h1{color: rgb()}
+
+/* this is a navigation bar */
+
+            /* background color */
+            .topnav {
+              background-color: rgb(216,226,220);
+              overflow: hidden;
+            }
+            
+            /* Style the links inside the navigation bar */
+            .topnav a {
+              float: left;
+              color: #FBFFFC;
+              text-align: center;
+              padding: 14px 203.95px;
+              text-decoration: none;
+              font-size: 20px;
+            }
+            
+            /* Change the color of links on hover */
+            .topnav a:hover {
+              background-color: #e1ebe2;
+              color: rgb(152, 185, 155);
+            }
+            
+            /* Add a color to the active/current link */
+            .topnav a.active {
+              background-color: rgb(208, 224, 213);
+              color: white;
+            }
