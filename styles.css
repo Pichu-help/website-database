@@ -1,7 +1,7 @@
 
 body{background-color: rgb(255, 248, 245); font-family: "gill sans", sans-serif;}
 
-h1{color: rgb(244, 172, 183) ;font-family: "bradley hand", cursive;}
+h1{color: #f4acb7 ;font-family: "bradley hand", cursive;}
 
 p{color: rgb(157, 129, 137) ;font-family: "gill sans", sans-serif;}
 
@@ -9,6 +9,7 @@ h3{color: rgb(255, 202, 212) ;font-family: "bradley hand", cursive;}
 
 
 h1{color: rgb()}
+
 
 /* this is a navigation bar */
 
@@ -25,7 +26,7 @@ h1{color: rgb()}
               text-align: center;
               padding: 14px 203.95px;
               text-decoration: none;
-              font-size: 20px;
+              font-size: 18.5px;
             }
             
             /* Change the color of links on hover */
@@ -38,4 +39,47 @@ h1{color: rgb()}
             .topnav a.active {
               background-color: rgb(208, 224, 213);
               color: white;
+            }
+
+
+
+            .container {
+              position: relative;
+              width: 50%;
+            }
+            
+
+
+            .image {
+
+              display: block;
+              width: 50%;
+              height: auto;
+
+            }
+            .overlay {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              height: 100%;
+              width: 50%;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: #f4acb7;
+            }
+            
+            .container:hover .overlay {
+              opacity: 1;
+            }
+            
+            .text {
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
             }
