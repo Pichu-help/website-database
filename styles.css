@@ -1,14 +1,16 @@
 
 body{background-color: rgb(255, 248, 245); font-family: "gill sans", sans-serif;}
 
-h1{color: #f4acb7 ;font-family: "bradley hand", cursive;}
+h1{color: #f4acb7 ;font-family: "bradley hand", cursive; text-align: center;}
 
-p{color: rgb(157, 129, 137) ;font-family: "gill sans", sans-serif;}
+p{color: rgb(157, 129, 137) ;font-family: "gills san", sans-serif;}
 
-h3{color: rgb(255, 202, 212) ;font-family: "bradley hand", cursive;}
+#dododo {background-color: #FFE5D9; color:#ffffff}
+
+h3{color: rgb(221, 161, 172) ;font-family: "bradley hand", cursive;}
 
 
-h1{color: rgb()}
+h1{color: #f4acb7}
 
 
 /* this is a navigation bar */
@@ -24,7 +26,7 @@ h1{color: rgb()}
               float: left;
               color: #FBFFFC;
               text-align: center;
-              padding: 14px 203.95px;
+              padding: 14px 199.7px;
               text-decoration: none;
               font-size: 18.5px;
             }
@@ -42,7 +44,7 @@ h1{color: rgb()}
             }
 
 
-
+/* container */
             .container {
               position: relative;
               width: 50%;
