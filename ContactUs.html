@@ -8,7 +8,7 @@
 
         <link rel= "stylesheet" href = "styles.css"> 
 
-        <title> Contact Us </title>
+        <title> Contact Us | Web Design</title>
         
         <link rel="icon" href="logo.png" type="image/png">
 
@@ -43,10 +43,75 @@
 
         <h1> Contact Us </h1>
 
+        <div class="rawr">
+            <form action="contact.php" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country <br> <em> (Note: not every country will be on the list) </em></label>
+            <select id="country" name="country">
+                <option value="afghanistan">Afghanistan</option>
+                <option value="albania">Albania</option>
+                <option value="andorra">Andorra</option>
+                <option value="australia">Australia</option>
+                <option value="austria">Austria</option>
+                <option value="bahamas">Bahamas</option>
+                <option value="bahrain">Bahrain</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="barbados">Barbados</option>
+                <option value="cambodia">Cambodia</option>
+                <option value="canada">Canada</option>
+                <option value="china">China</option>
+                <option value="denmark">Denmark</option>
+                <option value="egypt">Egypt</option>
+                <option value="fiji">Fiji</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="greece">Greece</option>
+                <option value="hong-kong">Hong Kong</option>
+                <option value="hungary">Hungary</option>
+                <option value="india">India</option>
+                <option value="ireland">Ireland</option>
+                <option value="japan">Japan</option>
+                <option value="southkorea">South Korea</option>
+                <option value="latvia">Latvia</option>
+                <option value="madagascar">Madagascar</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="netherlands">Netherlands</option>
+                <option value="new-zealand">New Zealand</option>
+                <option value="norway">Norway</option>
+                <option value="oman">Oman</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="peru">Peru</option>
+                <option value="portugal">Portugal</option>
+                <option value="qatar">Qatar</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="samoa">Samoa</option>
+                <option value="serbia">Serbia</option>
+                <option value="singapore">Singapore</option>
+                <option value="uk">UK</option>
+                <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            </form>
+
+            <button id="button" type="button" onclick="alert('Thank you for your response c:')"> Submit </button>
+
+            <h3> Actual Disclaimer for the teacher: the website actually does not record your responses. 
+                In order for the form to work you need to add a php format but I can't really be bothered so I just made it look like it works lol.</h3>
+
+        </div>
+
+
         <p style="font-size:120%;"> Phone number: 123 1234 1235 <br> Email Address: example@email.com <br> Website Design</p>
         
+
         <div class="container">
-            <img src="logo.png" width=10 alt="Logo" class="image">
+            <img src="logo.png" alt="Logo" class="image">
             <div class="overlay">
               <div class="text"> This website is an experiment with visual aesthetics and structure.</div>
             </div>
