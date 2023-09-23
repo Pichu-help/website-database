@@ -5,7 +5,7 @@ h1{color: #f4acb7 ;font-family: "bradley hand", cursive; text-align: center;}
 
 p{color: #9d8189 ;font-family: "gills san", sans-serif;}
 
-#dododo {background-color: #FFE5D9; color:#ffffff}
+#line {background-color: #FFE5D9; color:#ffffff}
 
 h3{color: rgb(221, 161, 172) ;font-family: "bradley hand", cursive;}
 
@@ -19,7 +19,7 @@ h1{color: #f4acb7}
     input[type=text], select, textarea {
       width: 100%;
       padding: 12px;
-      border: 1px solid #9d8189;
+      border: 1px solid #ab989e;
       border-radius: 4px;
       box-sizing: border-box;
       margin-top: 6px;
@@ -40,7 +40,8 @@ h1{color: #f4acb7}
       background-color: #94b5a1;
     }
 
-    .rawr {
+    .contactlist {
+      font-family: "gill sans", sans-serif; 
       border-radius: 5px;
       background-color: #fff1eb;
       padding: 20px;
@@ -63,7 +64,6 @@ h1{color: #f4acb7}
     #button {
       background-color: #accbb8; 
       color: #ffffff; 
-      border: 2px solid #accbb8;
     }
     
     #button:hover {
@@ -101,7 +101,12 @@ h1{color: #f4acb7}
               color: white;
             }
 
-
+            .center {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+            }
 /* container */
             .container {
               position: relative;
