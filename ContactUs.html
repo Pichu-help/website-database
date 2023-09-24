@@ -3,23 +3,23 @@
 <html>
 
     <head>
-
+<!-- Head -->
         <meta charset="utf-8">
 
         <link rel= "stylesheet" href = "styles.css"> 
 
         <title> Contact Us | Web Design</title>
-        
-        <link rel="icon" href="logo.png" type="image/png">
+    <!-- Favicon-->
+        <link rel="icon" href="pictures/logo.png" type="image/png">
 
 
     </head>
 
     <body>
+<!-- Body-->
+        <img src= "pictures/Contact-Us.jpeg" width=100%>
 
-        <img src= "Contact-Us.jpeg" width=100%>
-
-
+<!-- Navigation Bar-->
         <div class="topnav">
 
             <a href="web.html">Home</a>
@@ -33,6 +33,7 @@
 
         <h3> Hi! This page enables us to stay in touch with those who have any queries. </h3>
 
+        <!-- Random Decoration-->
         <h1 id="line"> ------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
 
         <h1> About Us </h1>
@@ -43,14 +44,17 @@
 
         <h1> Contact Us </h1>
 
+<!-- Contact Details (Fake)-->
         <div class="contactlist">
-            <form action="contact.php" method="post">
+                <!-- name-->
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
+        <!-- Last mame-->
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <!-- Country-->
             <label for="country">Country <br> <em> (Note: not every country will be on the list) </em></label>
+         <!-- An unsmart listing of countries for the contacts form-->
             <select id="country" name="country">
                 <option value="afghanistan">Afghanistan</option>
                 <option value="albania">Albania</option>
@@ -95,28 +99,31 @@
                 <option value="usa">USA</option>
             </select>
             <label for="subject">Subject</label>
+            <!-- Subject section-->
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
         
             </form>
-
+<!-- Fake Submit button + message-->
             <button id="button" type="button" onclick="alert('Thank you for your response c:')"> Submit </button>
-
+<!-- Actual Note:-->
             <h3> Actual Disclaimer for the teacher: the website actually does not record your responses. 
                 In order for the form to work you need to add a php format but I can't really be bothered so I just made it look like it works lol.</h3>
 
         </div>
 
+        </body>
 
-        
+<footer>
+<!-- footer -->        
 
         <div class="container">
-            <img src="logo.png" alt="Logo" class="image">
+            <img src="pictures/logo.png" alt="Logo" class="image">
             <div class="overlay">
               <div class="text"> This website is an experiment with visual aesthetics and structure.  <br> Contact Us: example@email.com <br> 021 123 4567</div>
             </div>
           </div>
         
 
-    </body>
+        </footer>
 
 </html>
